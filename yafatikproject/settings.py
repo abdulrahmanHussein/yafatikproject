@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-8s$4xfg=p*6kycxj6ncmms+06wem$d#e8layw)k@y2k25(d0bf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1','www.yafatik.com','yafatik.com','dijango.yafatik.com','www.dijango.yafatik.com','ec2-3-0-16-8.ap-southeast-1.compute.amazonaws.com']
 
 
 
@@ -124,6 +124,7 @@ AWS_SECRET_ACCESS_KEY = 'rWTmcmphqQ4RJgi79gxjpI37JzqsF4Ejpt3C58Y1'
 AWS_STORAGE_BUCKET_NAME = 'yafatik-static'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_DEFAULT_ACL = 'public-read'
+
 
 # Static files (CSS, JavaScript, images)
 AWS_STATIC_LOCATION = 'static'
